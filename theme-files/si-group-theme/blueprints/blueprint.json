@@ -89,6 +89,41 @@
     },
     {
       "step": "writeFile",
+      "path": "/wordpress/wp-content/themes/si-group-theme/patterns/hero.php",
+      "data": { "resource": "url", "url": "https://raw.githubusercontent.com/ysok33/SI2/main/theme-files/si-group-theme/patterns/hero.php" }
+    },
+    {
+      "step": "writeFile",
+      "path": "/wordpress/wp-content/themes/si-group-theme/patterns/trust-signals.php",
+      "data": { "resource": "url", "url": "https://raw.githubusercontent.com/ysok33/SI2/main/theme-files/si-group-theme/patterns/trust-signals.php" }
+    },
+    {
+      "step": "writeFile",
+      "path": "/wordpress/wp-content/themes/si-group-theme/patterns/services.php",
+      "data": { "resource": "url", "url": "https://raw.githubusercontent.com/ysok33/SI2/main/theme-files/si-group-theme/patterns/services.php" }
+    },
+    {
+      "step": "writeFile",
+      "path": "/wordpress/wp-content/themes/si-group-theme/patterns/strengths.php",
+      "data": { "resource": "url", "url": "https://raw.githubusercontent.com/ysok33/SI2/main/theme-files/si-group-theme/patterns/strengths.php" }
+    },
+    {
+      "step": "writeFile",
+      "path": "/wordpress/wp-content/themes/si-group-theme/patterns/company.php",
+      "data": { "resource": "url", "url": "https://raw.githubusercontent.com/ysok33/SI2/main/theme-files/si-group-theme/patterns/company.php" }
+    },
+    {
+      "step": "writeFile",
+      "path": "/wordpress/wp-content/themes/si-group-theme/patterns/recruit.php",
+      "data": { "resource": "url", "url": "https://raw.githubusercontent.com/ysok33/SI2/main/theme-files/si-group-theme/patterns/recruit.php" }
+    },
+    {
+      "step": "writeFile",
+      "path": "/wordpress/wp-content/themes/si-group-theme/patterns/contact.php",
+      "data": { "resource": "url", "url": "https://raw.githubusercontent.com/ysok33/SI2/main/theme-files/si-group-theme/patterns/contact.php" }
+    },
+    {
+      "step": "writeFile",
       "path": "/wordpress/wp-content/themes/si-group-theme/assets/css/custom.css",
       "data": { "resource": "url", "url": "https://raw.githubusercontent.com/ysok33/SI2/main/theme-files/si-group-theme/assets/css/custom.css" }
     },
@@ -101,12 +136,12 @@
       "options": {
         "blogname": "SIgroup\u682a\u5f0f\u4f1a\u793e",
         "blogdescription": "\u4eba\u6750\u6d3e\u9063\u30fb\u8077\u696d\u7d39\u4ecb\u30fb\u901a\u4fe1\u30fb\u30a4\u30d9\u30f3\u30c8\u4e8b\u696d",
-        "show_on_front": "posts"
+        "show_on_front": "page"
       }
     },
     {
       "step": "runPHP",
-      "code": "<?php require '/wordpress/wp-load.php'; $pages = [ ['post_title'=>'会社概要','post_name'=>'company','post_content'=>'<!-- wp:paragraph --><p>会社概要ページは準備中です。</p><!-- /wp:paragraph -->'], ['post_title'=>'事業内容','post_name'=>'services','post_content'=>'<!-- wp:paragraph --><p>事業内容ページは準備中です。</p><!-- /wp:paragraph -->'], ['post_title'=>'採用情報','post_name'=>'recruit','post_content'=>'<!-- wp:paragraph --><p>採用情報ページは準備中です。</p><!-- /wp:paragraph -->'], ['post_title'=>'お問い合わせ','post_name'=>'contact','post_content'=>'<!-- wp:paragraph --><p>お問い合わせページは準備中です。</p><!-- /wp:paragraph -->'], ['post_title'=>'プライバシーポリシー','post_name'=>'privacy-policy','post_content'=>'<!-- wp:paragraph --><p>プライバシーポリシーページは準備中です。</p><!-- /wp:paragraph -->'] ]; foreach($pages as $p){ if(!get_page_by_path($p['post_name'])){ wp_insert_post(['post_title'=>$p['post_title'],'post_name'=>$p['post_name'],'post_content'=>$p['post_content'],'post_status'=>'publish','post_type'=>'page']); } } echo 'Pages created.'; ?>"
+      "code": "<?php require '/wordpress/wp-load.php'; $pages = [ ['post_title'=>'\u4f1a\u793e\u6982\u8981','post_name'=>'company','post_content'=>'<!-- wp:paragraph --><p>\u4f1a\u793e\u6982\u8981\u30da\u30fc\u30b8\u306f\u6e96\u5099\u4e2d\u3067\u3059\u3002</p><!-- /wp:paragraph -->'], ['post_title'=>'\u4e8b\u696d\u5185\u5bb9','post_name'=>'services','post_content'=>'<!-- wp:paragraph --><p>\u4e8b\u696d\u5185\u5bb9\u30da\u30fc\u30b8\u306f\u6e96\u5099\u4e2d\u3067\u3059\u3002</p><!-- /wp:paragraph -->'], ['post_title'=>'\u63a1\u7528\u60c5\u5831','post_name'=>'recruit','post_content'=>'<!-- wp:paragraph --><p>\u63a1\u7528\u60c5\u5831\u30da\u30fc\u30b8\u306f\u6e96\u5099\u4e2d\u3067\u3059\u3002</p><!-- /wp:paragraph -->'], ['post_title'=>'\u304a\u554f\u3044\u5408\u308f\u305b','post_name'=>'contact','post_content'=>'<!-- wp:paragraph --><p>\u304a\u554f\u3044\u5408\u308f\u305b\u30da\u30fc\u30b8\u306f\u6e96\u5099\u4e2d\u3067\u3059\u3002</p><!-- /wp:paragraph -->'], ['post_title'=>'\u30d7\u30e9\u30a4\u30d0\u30b7\u30fc\u30dd\u30ea\u30b7\u30fc','post_name'=>'privacy-policy','post_content'=>'<!-- wp:paragraph --><p>\u30d7\u30e9\u30a4\u30d0\u30b7\u30fc\u30dd\u30ea\u30b7\u30fc\u30da\u30fc\u30b8\u306f\u6e96\u5099\u4e2d\u3067\u3059\u3002</p><!-- /wp:paragraph -->'], ['post_title'=>'\u30c8\u30c3\u30d7','post_name'=>'top','post_content'=>''] ]; $front_id = null; foreach($pages as $p){ if(!get_page_by_path($p['post_name'])){ $id = wp_insert_post(['post_title'=>$p['post_title'],'post_name'=>$p['post_name'],'post_content'=>$p['post_content'],'post_status'=>'publish','post_type'=>'page']); if($p['post_name']==='top') $front_id = $id; } else { $existing = get_page_by_path($p['post_name']); if($p['post_name']==='top') $front_id = $existing->ID; } } if($front_id){ update_option('show_on_front','page'); update_option('page_on_front',$front_id); } echo 'Done.'; ?>"
     }
   ]
 }
