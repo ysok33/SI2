@@ -103,6 +103,10 @@
         "blogdescription": "\u4eba\u6750\u6d3e\u9063\u30fb\u8077\u696d\u7d39\u4ecb\u30fb\u901a\u4fe1\u30fb\u30a4\u30d9\u30f3\u30c8\u4e8b\u696d",
         "show_on_front": "posts"
       }
+    },
+    {
+      "step": "runPHP",
+      "code": "<?php require '/wordpress/wp-load.php'; $pages = [ ['post_title'=>'会社概要','post_name'=>'company','post_content'=>'<!-- wp:paragraph --><p>会社概要ページは準備中です。</p><!-- /wp:paragraph -->'], ['post_title'=>'事業内容','post_name'=>'services','post_content'=>'<!-- wp:paragraph --><p>事業内容ページは準備中です。</p><!-- /wp:paragraph -->'], ['post_title'=>'採用情報','post_name'=>'recruit','post_content'=>'<!-- wp:paragraph --><p>採用情報ページは準備中です。</p><!-- /wp:paragraph -->'], ['post_title'=>'お問い合わせ','post_name'=>'contact','post_content'=>'<!-- wp:paragraph --><p>お問い合わせページは準備中です。</p><!-- /wp:paragraph -->'], ['post_title'=>'プライバシーポリシー','post_name'=>'privacy-policy','post_content'=>'<!-- wp:paragraph --><p>プライバシーポリシーページは準備中です。</p><!-- /wp:paragraph -->'] ]; foreach($pages as $p){ if(!get_page_by_path($p['post_name'])){ wp_insert_post(['post_title'=>$p['post_title'],'post_name'=>$p['post_name'],'post_content'=>$p['post_content'],'post_status'=>'publish','post_type'=>'page']); } } echo 'Pages created.'; ?>"
     }
   ]
 }
