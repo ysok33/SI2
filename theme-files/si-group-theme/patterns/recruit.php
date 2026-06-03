@@ -5,7 +5,7 @@
  * Categories: featured
  */
 ?>
-<!-- wp:group {"tagName":"section","className":"recruit-section","style":{"color":{"background":"#EEF3F8"},"spacing":{"padding":{"top":"var:preset|spacing|section-md","bottom":"var:preset|spacing|section-md"}}},"layout":{"type":"constrained","wideSize":"1200px"}} -->
+<!-- wp:group {"tagName":"section","className":"recruit-section","style":{"color":{"background":"#EEF3F8"},"spacing":{"padding":{"top":"80px","bottom":"80px"}}},"layout":{"type":"constrained","wideSize":"1200px"}} -->
 <section class="wp-block-group recruit-section has-background" style="background-color:#EEF3F8;padding-top:80px;padding-bottom:80px">
 
   <!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between","alignItems":"flex-start"}} -->
@@ -20,7 +20,7 @@
       <h2 style="margin-top:8px;margin-bottom:24px">共に場を作る人を、募集しています</h2>
       <!-- /wp:heading -->
       <!-- wp:paragraph {"style":{"typography":{"fontSize":"16px","lineHeight":"1.9"},"color":{"text":"#333333"},"spacing":{"margin":{"bottom":"40px"}}}} -->
-      <p style="font-size:16px;line-height:1.9;color:#333333;margin-bottom:40px">SIgroupは、個人の生活スタイルや希望に合わせた柔軟な就労形態を用意しています。フレックスタイム制度・入社半年後からの有給休暖・座学休対応など、居心地よく長く働ける環境を整えています。</p>
+      <p style="font-size:16px;line-height:1.9;color:#333333;margin-bottom:40px">SIgroupは、個人の生活スタイルや希望に合わせた柔軟な就労形態を用意しています。フレックスタイム制度・入社半年後からの有給休暇・多様な雇用形態対応など、居心地よく長く働ける環境を整えています。</p>
       <!-- /wp:paragraph -->
       <!-- wp:buttons -->
       <div class="wp-block-buttons">
@@ -39,7 +39,7 @@
       <!-- wp:group {"style":{"spacing":{"padding":{"top":"24px","bottom":"24px","left":"24px","right":"24px"},"margin":{"bottom":"16px"}},"border":{"radius":"8px"},"color":{"background":"#FFFFFF"}}} -->
       <div class="wp-block-group" style="padding:24px;border-radius:8px;background:#FFFFFF;margin-bottom:16px">
         <!-- wp:heading {"level":4,"style":{"typography":{"fontSize":"15px","fontWeight":"700"},"color":{"text":"#1A3A5C"}}} -->
-        <h4 style="font-size:15px;font-weight:700;color:#1A3A5C">⏰ フレックスタイム制度</h4>
+        <h4 style="font-size:15px;font-weight:700;color:#1A3A5C">&#9200; フレックスタイム制度</h4>
         <!-- /wp:heading -->
         <!-- wp:paragraph {"style":{"typography":{"fontSize":"14px"},"color":{"text":"#555555"},"spacing":{"margin":{"top":"8px"}}}} -->
         <p style="font-size:14px;color:#555555;margin-top:8px">始業・終業の時刻を自分で決められます。生活リズムに合わせて働き方を設計できます。</p>
@@ -50,10 +50,10 @@
       <!-- wp:group {"style":{"spacing":{"padding":{"top":"24px","bottom":"24px","left":"24px","right":"24px"},"margin":{"bottom":"16px"}},"border":{"radius":"8px"},"color":{"background":"#FFFFFF"}}} -->
       <div class="wp-block-group" style="padding:24px;border-radius:8px;background:#FFFFFF;margin-bottom:16px">
         <!-- wp:heading {"level":4,"style":{"typography":{"fontSize":"15px","fontWeight":"700"},"color":{"text":"#1A3A5C"}}} -->
-        <h4 style="font-size:15px;font-weight:700;color:#1A3A5C">🌴 入社半年後から有給休智10日付与</h4>
+        <h4 style="font-size:15px;font-weight:700;color:#1A3A5C">&#127796; 入社半年後から有給休暇１10日付与</h4>
         <!-- /wp:heading -->
         <!-- wp:paragraph {"style":{"typography":{"fontSize":"14px"},"color":{"text":"#555555"},"spacing":{"margin":{"top":"8px"}}}} -->
-        <p style="font-size:14px;color:#555555;margin-top:8px">入社半年後から有給休昈2週間を付与。山のリフレッシュもサポートします。</p>
+        <p style="font-size:14px;color:#555555;margin-top:8px">入社半年後から有給休暇【2日付与。プライベートの時間もしっかり楽しめます。</p>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
@@ -61,7 +61,7 @@
       <!-- wp:group {"style":{"spacing":{"padding":{"top":"24px","bottom":"24px","left":"24px","right":"24px"}},"border":{"radius":"8px"},"color":{"background":"#FFFFFF"}}} -->
       <div class="wp-block-group" style="padding:24px;border-radius:8px;background:#FFFFFF">
         <!-- wp:heading {"level":4,"style":{"typography":{"fontSize":"15px","fontWeight":"700"},"color":{"text":"#1A3A5C"}}} -->
-        <h4 style="font-size:15px;font-weight:700;color:#1A3A5C">📊 年収・出勤日数を自分で設計</h4>
+        <h4 style="font-size:15px;font-weight:700;color:#1A3A5C">&#128202; 年収・出勤日数を自分で設計</h4>
         <!-- /wp:heading -->
         <!-- wp:paragraph {"style":{"typography":{"fontSize":"14px"},"color":{"text":"#555555"},"spacing":{"margin":{"top":"8px"}}}} -->
         <p style="font-size:14px;color:#555555;margin-top:8px">年収増加希望・所得制限希望など、各自のライフスタイルに合わせた就労条件を選択できます。</p>
