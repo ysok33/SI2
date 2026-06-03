@@ -1,0 +1,31 @@
+{
+  "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+  "preferredVersions": {
+    "php": "8.2",
+    "wp": "latest"
+  },
+  "features": {
+    "networking": true
+  },
+  "steps": [
+    {
+      "step": "installTheme",
+      "themeData": {
+        "resource": "url",
+        "url": "https://github.com/ysok33/SI2/releases/latest/download/si-group-theme.zip"
+      }
+    },
+    {
+      "step": "activateTheme",
+      "themeFolderName": "si-group-theme"
+    },
+    {
+      "step": "setSiteOptions",
+      "options": {
+        "blogname": "SIgroup株式会社",
+        "blogdescription": "人材派遣・職業紹介・通信・イベント事業",
+        "show_on_front": "page"
+      }
+    }
+  ]
+}

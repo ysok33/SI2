@@ -1,0 +1,39 @@
+name: Release Theme ZIP
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create theme ZIP
+        run: |
+          cd theme-files
+          zip -r ../si-group-theme.zip si-group-theme
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: si-group-theme.zip
+          name: SI Group Theme ${{ github.ref_name }}
+          body: |
+            ## 変更内容
+            - WordPress ブロックテーマ初期リリース
+
+            ## WordPress Playground での確認
+            以下のURLでデモ環境を起動できます：
+
+            ```
+            https://playground.wordpress.net/?blueprint-url=https://github.com/ysok33/SI2/raw/main/theme-files/si-group-theme/blueprints/blueprint.json
+            ```
+          draft: false
+          prerelease: false
