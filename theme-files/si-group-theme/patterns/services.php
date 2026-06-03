@@ -5,7 +5,7 @@
  * Categories: featured
  */
 ?>
-<!-- wp:group {"tagName":"section","className":"services-section","style":{"spacing":{"padding":{"top":"var:preset|spacing|section-md","bottom":"var:preset|spacing|section-md"}}},"layout":{"type":"constrained","wideSize":"1200px"}} -->
+<!-- wp:group {"tagName":"section","className":"services-section","style":{"spacing":{"padding":{"top":"80px","bottom":"80px"}}},"layout":{"type":"constrained","wideSize":"1200px"}} -->
 <section class="wp-block-group services-section" style="padding-top:80px;padding-bottom:80px">
 
   <!-- wp:group {"className":"section-header","style":{"spacing":{"margin":{"bottom":"56px"}}}} -->
@@ -17,7 +17,7 @@
     <h2 style="margin-top:8px">事業内容</h2>
     <!-- /wp:heading -->
     <!-- wp:paragraph {"style":{"typography":{"fontSize":"16px"},"color":{"text":"#555555"},"spacing":{"margin":{"top":"16px"}}}} -->
-    <p style="font-size:16px;color:#555555;margin-top:16px">SIgroupは4つの事業権を通じて、お取引先企業様と地域社会を支えています。</p>
+    <p style="font-size:16px;color:#555555;margin-top:16px">SIgroupは4つの事業を通じて、お取引先企業様と地域社会を支えています。</p>
     <!-- /wp:paragraph -->
   </div>
   <!-- /wp:group -->
@@ -31,7 +31,7 @@
       <!-- wp:group {"className":"service-card","style":{"border":{"radius":"8px","width":"1px","color":"#E0E0E0"},"spacing":{"padding":{"top":"32px","bottom":"32px","left":"28px","right":"28px"}}}} -->
       <div class="wp-block-group service-card" style="border-radius:8px;border:1px solid #E0E0E0;padding:32px 28px;box-shadow:0 2px 12px rgba(0,0,0,0.08)">
         <!-- wp:paragraph {"style":{"typography":{"fontSize":"32px"},"spacing":{"margin":{"bottom":"16px"}}}} -->
-        <p style="font-size:32px;margin-bottom:16px">👥</p>
+        <p style="font-size:32px;margin-bottom:16px">&#128101;</p>
         <!-- /wp:paragraph -->
         <!-- wp:heading {"level":3} -->
         <h3>人材派遣事業</h3>
@@ -50,13 +50,13 @@
       <!-- wp:group {"className":"service-card","style":{"border":{"radius":"8px","width":"1px","color":"#E0E0E0"},"spacing":{"padding":{"top":"32px","bottom":"32px","left":"28px","right":"28px"}}}} -->
       <div class="wp-block-group service-card" style="border-radius:8px;border:1px solid #E0E0E0;padding:32px 28px;box-shadow:0 2px 12px rgba(0,0,0,0.08)">
         <!-- wp:paragraph {"style":{"typography":{"fontSize":"32px"},"spacing":{"margin":{"bottom":"16px"}}}} -->
-        <p style="font-size:32px;margin-bottom:16px">🔍</p>
+        <p style="font-size:32px;margin-bottom:16px">&#128269;</p>
         <!-- /wp:paragraph -->
         <!-- wp:heading {"level":3} -->
         <h3>有料職業紹介事業</h3>
         <!-- /wp:heading -->
         <!-- wp:paragraph {"style":{"typography":{"fontSize":"14px"},"color":{"text":"#555555"},"spacing":{"margin":{"top":"12px"}}}} -->
-        <p style="font-size:14px;color:#555555;margin-top:12px">有料職業紹介事業許可（第33-ユ-300342）を取得。求職者の希望と小川のニーズを結び、適所への就職を支援します。</p>
+        <p style="font-size:14px;color:#555555;margin-top:12px">有料職業紹介事業許可（第33-ユ-300342）を取得。求職者の希望と企業側のニーズを結び、適所への就職を支援します。</p>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
@@ -69,7 +69,7 @@
       <!-- wp:group {"className":"service-card","style":{"border":{"radius":"8px","width":"1px","color":"#E0E0E0"},"spacing":{"padding":{"top":"32px","bottom":"32px","left":"28px","right":"28px"}}}} -->
       <div class="wp-block-group service-card" style="border-radius:8px;border:1px solid #E0E0E0;padding:32px 28px;box-shadow:0 2px 12px rgba(0,0,0,0.08)">
         <!-- wp:paragraph {"style":{"typography":{"fontSize":"32px"},"spacing":{"margin":{"bottom":"16px"}}}} -->
-        <p style="font-size:32px;margin-bottom:16px">📱</p>
+        <p style="font-size:32px;margin-bottom:16px">&#128241;</p>
         <!-- /wp:paragraph -->
         <!-- wp:heading {"level":3} -->
         <h3>通信事業</h3>
@@ -88,13 +88,13 @@
       <!-- wp:group {"className":"service-card","style":{"border":{"radius":"8px","width":"1px","color":"#E0E0E0"},"spacing":{"padding":{"top":"32px","bottom":"32px","left":"28px","right":"28px"}}}} -->
       <div class="wp-block-group service-card" style="border-radius:8px;border:1px solid #E0E0E0;padding:32px 28px;box-shadow:0 2px 12px rgba(0,0,0,0.08)">
         <!-- wp:paragraph {"style":{"typography":{"fontSize":"32px"},"spacing":{"margin":{"bottom":"16px"}}}} -->
-        <p style="font-size:32px;margin-bottom:16px">🏛️</p>
+        <p style="font-size:32px;margin-bottom:16px">&#127963;</p>
         <!-- /wp:paragraph -->
         <!-- wp:heading {"level":3} -->
         <h3>イベント事業</h3>
         <!-- /wp:heading -->
         <!-- wp:paragraph {"style":{"typography":{"fontSize":"14px"},"color":{"text":"#555555"},"spacing":{"margin":{"top":"12px"}}}} -->
-        <p style="font-size:14px;color:#555555;margin-top:12px">地域のイベント運営・スタッフ派遣に対応しています。イベントの規模に応じた最適な人才をコーディネートします。</p>
+        <p style="font-size:14px;color:#555555;margin-top:12px">地域のイベント運営・スタッフ派遣に対応しています。イベントの規模に応じた最適な人材をコーディネートします。</p>
         <!-- /wp:paragraph -->
       </div>
       <!-- /wp:group -->
