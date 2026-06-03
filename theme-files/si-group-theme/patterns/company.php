@@ -5,7 +5,7 @@
  * Categories: featured
  */
 ?>
-<!-- wp:group {"tagName":"section","className":"company-section","style":{"spacing":{"padding":{"top":"var:preset|spacing|section-md","bottom":"var:preset|spacing|section-md"}}},"layout":{"type":"constrained","wideSize":"1200px"}} -->
+<!-- wp:group {"tagName":"section","className":"company-section","style":{"spacing":{"padding":{"top":"80px","bottom":"80px"}}},"layout":{"type":"constrained","wideSize":"1200px"}} -->
 <section class="wp-block-group company-section" style="padding-top:80px;padding-bottom:80px">
 
   <!-- wp:group {"className":"section-header","style":{"spacing":{"margin":{"bottom":"48px"}}}} -->
@@ -41,11 +41,11 @@
         </tr>
         <tr>
           <th style="background:#F5F4F2;padding:16px 20px;text-align:left;font-size:14px;font-weight:700;border:1px solid #E0E0E0">所在地</th>
-          <td style="padding:16px 20px;font-size:15px;border:1px solid #E0E0E0">岐阜県岐阜市北区厚生町2-11-14 3F 2号</td>
+          <td style="padding:16px 20px;font-size:15px;border:1px solid #E0E0E0">岡山県岡山市北区厚生町2-11-14 3F 2号</td>
         </tr>
         <tr>
           <th style="background:#F5F4F2;padding:16px 20px;text-align:left;font-size:14px;font-weight:700;border:1px solid #E0E0E0">電話 / FAX</th>
-          <td style="padding:16px 20px;font-size:15px;border:1px solid #E0E0E0">TEL: 086-238-5396&nbsp;／&nbsp;FAX: 086-238-5397</td>
+          <td style="padding:16px 20px;font-size:15px;border:1px solid #E0E0E0">TEL: 086-238-5396&nbsp;／&nbsp;FAX: 086-238-5397&nbsp;（受付時間：平日 9:00～17:00）</td>
         </tr>
         <tr>
           <th style="background:#F5F4F2;padding:16px 20px;text-align:left;font-size:14px;font-weight:700;border:1px solid #E0E0E0">取引銀行</th>
@@ -57,11 +57,11 @@
         </tr>
         <tr>
           <th style="background:#F5F4F2;padding:16px 20px;text-align:left;font-size:14px;font-weight:700;border:1px solid #E0E0E0">監査役</th>
-          <td style="padding:16px 20px;font-size:15px;border:1px solid #E0E0E0">二帧 幸広（税理士・経営革新等支援機関認定）</td>
+          <td style="padding:16px 20px;font-size:15px;border:1px solid #E0E0E0">二块 幸広（税理士・経営革新等支援機関認定）</td>
         </tr>
         <tr>
           <th style="background:#F5F4F2;padding:16px 20px;text-align:left;font-size:14px;font-weight:700;border:1px solid #E0E0E0">許認番号</th>
-          <td style="padding:16px 20px;font-size:15px;border:1px solid #E0E0E0">労働者派遣事業：第33-300657　有料職業紹介事業：第33-ユ-300342</td>
+          <td style="padding:16px 20px;font-size:15px;border:1px solid #E0E0E0">労働者派遣事業：第33-300657&nbsp;&nbsp;有料職業紹介事業：第33-ユ-300342</td>
         </tr>
         <tr>
           <th style="background:#F5F4F2;padding:16px 20px;text-align:left;font-size:14px;font-weight:700;border:1px solid #E0E0E0">適格請求書発行事業者</th>
@@ -71,14 +71,6 @@
     </table>
   </figure>
   <!-- /wp:table -->
-
-  <!-- wp:buttons {"style":{"spacing":{"margin":{"top":"40px"}}},"layout":{"type":"flex","justifyContent":"flex-start"}} -->
-  <div class="wp-block-buttons" style="margin-top:40px">
-    <!-- wp:button {"className":"is-style-outline"} -->
-    <div class="wp-block-button is-style-outline"><a class="wp-block-button__link" href="/about">会社概要の詳細を見る</a></div>
-    <!-- /wp:button -->
-  </div>
-  <!-- /wp:buttons -->
 
 </section>
 <!-- /wp:group -->
