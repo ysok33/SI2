@@ -1,0 +1,31 @@
+name: Build Theme ZIP
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'theme-files/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build ZIP
+        run: |
+          cd theme-files
+          zip -r ../si-group-theme.zip si-group-theme
+
+      - name: Commit ZIP to repo
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add si-group-theme.zip
+          git diff --cached --quiet || git commit -m "ci: update si-group-theme.zip [skip ci]"
+          git push
