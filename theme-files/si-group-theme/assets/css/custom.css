@@ -1,0 +1,172 @@
+/* =============================================
+   SI Group Theme — Custom CSS
+   ============================================= */
+
+/* --- Base Reset --- */
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #1A1A1A;
+  background: #FFFFFF;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* --- Site Header --- */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+}
+
+.site-header a { color: #FFFFFF !important; }
+.site-header a:hover { color: #C8A96E !important; }
+
+.header-tel a {
+  text-decoration: none !important;
+  transition: color 0.2s;
+}
+.header-tel a:hover { color: #C8A96E !important; }
+
+/* --- Navigation --- */
+.wp-block-navigation .wp-block-navigation-item__content {
+  font-size: 15px;
+  font-weight: 500;
+  padding: 8px 12px;
+  transition: color 0.2s;
+}
+.wp-block-navigation .wp-block-navigation-item__content:hover {
+  color: #C8A96E;
+}
+
+/* --- Section Headers --- */
+.section-header {
+  max-width: 640px;
+}
+
+/* --- Hero Section --- */
+.hero-section {
+  min-height: 520px;
+  display: flex;
+  align-items: center;
+}
+.hero-text {
+  max-width: 720px;
+}
+
+/* --- Trust Signals --- */
+.trust-signals-section {
+  border-bottom: 1px solid #D8E0E8;
+}
+.trust-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.trust-divider {
+  display: none;
+}
+@media (min-width: 768px) {
+  .trust-divider { display: block !important; }
+  .trust-item { flex-direction: column; }
+}
+
+/* --- Service Cards --- */
+.service-card {
+  height: 100%;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.service-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12) !important;
+}
+
+/* --- Company Table --- */
+.company-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.company-table th,
+.company-table td {
+  vertical-align: top;
+  line-height: 1.7;
+}
+@media (max-width: 639px) {
+  .company-table th,
+  .company-table td {
+    display: block;
+    width: 100% !important;
+  }
+  .company-table th {
+    padding-bottom: 4px !important;
+  }
+}
+
+/* --- Recruit Section --- */
+.recruit-features {
+  min-width: 280px;
+  max-width: 360px;
+}
+@media (max-width: 767px) {
+  .recruit-features {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+}
+
+/* --- Contact Section --- */
+.contact-box {
+  min-width: 260px;
+  flex: 1;
+}
+@media (max-width: 767px) {
+  .contact-box {
+    width: 100% !important;
+    margin-right: 0 !important;
+    margin-bottom: 16px;
+  }
+}
+
+/* --- Buttons --- */
+.wp-block-button__link {
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+  letter-spacing: 0.04em;
+}
+.is-style-outline .wp-block-button__link {
+  background: transparent !important;
+}
+.is-style-outline .wp-block-button__link:hover {
+  background: #1A3A5C !important;
+  color: #FFFFFF !important;
+}
+
+/* --- Footer --- */
+.site-footer a {
+  transition: color 0.2s;
+}
+.site-footer a:hover {
+  color: #C8A96E !important;
+}
+
+/* --- Responsive Typography --- */
+@media (max-width: 639px) {
+  h1 { font-size: 28px !important; }
+  h2 { font-size: 22px !important; }
+  .hero-section {
+    padding-top: 64px !important;
+    padding-bottom: 64px !important;
+  }
+  .wp-block-columns {
+    flex-direction: column;
+  }
+  .wp-block-column + .wp-block-column {
+    margin-top: 16px;
+  }
+}
+
+/* --- Accessibility --- */
+a:focus-visible {
+  outline: 2px solid #C8A96E;
+  outline-offset: 2px;
+}
