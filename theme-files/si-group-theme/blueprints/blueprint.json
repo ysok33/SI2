@@ -9,11 +9,88 @@
   },
   "steps": [
     {
-      "step": "installTheme",
-      "themeData": {
-        "resource": "url",
-        "url": "https://raw.githubusercontent.com/ysok33/SI2/main/si-group-theme.zip"
-      }
+      "step": "mkdir",
+      "path": "/wordpress/wp-content/themes/si-group-theme"
+    },
+    {
+      "step": "mkdir",
+      "path": "/wordpress/wp-content/themes/si-group-theme/templates"
+    },
+    {
+      "step": "mkdir",
+      "path": "/wordpress/wp-content/themes/si-group-theme/parts"
+    },
+    {
+      "step": "mkdir",
+      "path": "/wordpress/wp-content/themes/si-group-theme/patterns"
+    },
+    {
+      "step": "mkdir",
+      "path": "/wordpress/wp-content/themes/si-group-theme/assets"
+    },
+    {
+      "step": "mkdir",
+      "path": "/wordpress/wp-content/themes/si-group-theme/assets/css"
+    },
+    {
+      "step": "writeFile",
+      "path": "/wordpress/wp-content/themes/si-group-theme/style.css",
+      "data": { "resource": "url", "url": "https://raw.githubusercontent.com/ysok33/SI2/main/theme-files/si-group-theme/style.css" }
+    },
+    {
+      "step": "writeFile",
+      "path": "/wordpress/wp-content/themes/si-group-theme/theme.json",
+      "data": { "resource": "url", "url": "https://raw.githubusercontent.com/ysok33/SI2/main/theme-files/si-group-theme/theme.json" }
+    },
+    {
+      "step": "writeFile",
+      "path": "/wordpress/wp-content/themes/si-group-theme/functions.php",
+      "data": { "resource": "url", "url": "https://raw.githubusercontent.com/ysok33/SI2/main/theme-files/si-group-theme/functions.php" }
+    },
+    {
+      "step": "writeFile",
+      "path": "/wordpress/wp-content/themes/si-group-theme/templates/front-page.html",
+      "data": { "resource": "url", "url": "https://raw.githubusercontent.com/ysok33/SI2/main/theme-files/si-group-theme/templates/front-page.html" }
+    },
+    {
+      "step": "writeFile",
+      "path": "/wordpress/wp-content/themes/si-group-theme/templates/index.html",
+      "data": { "resource": "url", "url": "https://raw.githubusercontent.com/ysok33/SI2/main/theme-files/si-group-theme/templates/index.html" }
+    },
+    {
+      "step": "writeFile",
+      "path": "/wordpress/wp-content/themes/si-group-theme/templates/page.html",
+      "data": { "resource": "url", "url": "https://raw.githubusercontent.com/ysok33/SI2/main/theme-files/si-group-theme/templates/page.html" }
+    },
+    {
+      "step": "writeFile",
+      "path": "/wordpress/wp-content/themes/si-group-theme/templates/single.html",
+      "data": { "resource": "url", "url": "https://raw.githubusercontent.com/ysok33/SI2/main/theme-files/si-group-theme/templates/single.html" }
+    },
+    {
+      "step": "writeFile",
+      "path": "/wordpress/wp-content/themes/si-group-theme/templates/archive.html",
+      "data": { "resource": "url", "url": "https://raw.githubusercontent.com/ysok33/SI2/main/theme-files/si-group-theme/templates/archive.html" }
+    },
+    {
+      "step": "writeFile",
+      "path": "/wordpress/wp-content/themes/si-group-theme/templates/404.html",
+      "data": { "resource": "url", "url": "https://raw.githubusercontent.com/ysok33/SI2/main/theme-files/si-group-theme/templates/404.html" }
+    },
+    {
+      "step": "writeFile",
+      "path": "/wordpress/wp-content/themes/si-group-theme/parts/header.html",
+      "data": { "resource": "url", "url": "https://raw.githubusercontent.com/ysok33/SI2/main/theme-files/si-group-theme/parts/header.html" }
+    },
+    {
+      "step": "writeFile",
+      "path": "/wordpress/wp-content/themes/si-group-theme/parts/footer.html",
+      "data": { "resource": "url", "url": "https://raw.githubusercontent.com/ysok33/SI2/main/theme-files/si-group-theme/parts/footer.html" }
+    },
+    {
+      "step": "writeFile",
+      "path": "/wordpress/wp-content/themes/si-group-theme/assets/css/custom.css",
+      "data": { "resource": "url", "url": "https://raw.githubusercontent.com/ysok33/SI2/main/theme-files/si-group-theme/assets/css/custom.css" }
     },
     {
       "step": "activateTheme",
@@ -24,7 +101,7 @@
       "options": {
         "blogname": "SIgroup\u682a\u5f0f\u4f1a\u793e",
         "blogdescription": "\u4eba\u6750\u6d3e\u9063\u30fb\u8077\u696d\u7d39\u4ecb\u30fb\u901a\u4fe1\u30fb\u30a4\u30d9\u30f3\u30c8\u4e8b\u696d",
-        "show_on_front": "page"
+        "show_on_front": "posts"
       }
     }
   ]
